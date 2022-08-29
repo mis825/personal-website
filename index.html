@@ -1,0 +1,260 @@
+<!--Create a skeleton html page (doctype,html, head, body elements) in the text file-->
+<!--Michael Singer, mis825@lehigh.edu, section 10, -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- import style sheet from styles.css -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- <style >
+        h1 {
+            color: rgb(222, 223, 247);
+            font-family: "Montserrat", sans-serif;
+            font-style: bold;
+        }
+
+        p {
+            color: blue;
+        }
+
+        body {
+            width: 800px
+        }
+
+        h6 {
+            width: 800px;
+            color: #3d9dec;
+            text-align: center;
+            font-size: 15px;
+            font-family: "Montserrat", sans-serif;
+            float: left;
+            padding: 30px;
+            background-color: #022d51;
+            border-radius: 50px;
+        }
+
+        #banner {
+            background-image: url('/images/backround-banner.png');
+            width: 800px;
+            height: 60px;
+            background-repeat: no-repeat;
+            font-size: 25px;
+            text-indent: 30%;
+            border-radius: 10px;
+
+        }
+
+        h2 {
+            color: rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            font-style: bold;
+            text-indent: 5%;
+        }
+
+        p {
+            color: rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            font-style: bold;
+            margin-left: 10%;
+            margin-right: 20%;
+        }
+
+        h3 {
+            color: rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            text-indent: 7%;
+        }
+
+        tr {
+            color: rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            text-indent: 2%;
+        }
+
+        table {
+            color: rgb(8, 12, 116);
+            margin-left: auto;
+            margin-right: auto;
+            border: dotted 3px #000;
+        }
+
+        td {
+            text-align: center;
+            border: solid 1px #000;
+        }
+
+        th {
+            text-align: center;
+            border: solid 1px #000;
+        }
+
+        #column1 {
+            float: left;
+            width: 50%;
+        }
+
+        #column2 {
+            float: left;
+            width: 50%;
+        }
+
+        li.fav {
+            margin: 30px 0;
+        }
+
+        #column1 {
+            width: 66.66%;
+        }
+
+        #column2 {
+            width: 33.33%;
+        }
+
+        #pfp {
+            width:100%;
+            height:auto;
+            padding:20px;
+        };
+
+        ul.inner-list {
+            color:rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            list-style: square;
+        }
+
+        ul.outer-list {
+            color:rgb(8, 12, 116);
+            font-family: "Montserrat", sans-serif;
+            list-style: square;
+        }
+
+        ol.facts {
+            color:rgb(8, 12, 116);
+            font-family:"Montserrat", sans-serif;
+        }
+
+        #col-ingroup1 {
+            width: 50%;
+        }
+
+        #col-ingroup2 {
+            width: 35%;
+        }
+
+        #footer {
+            position:static;
+            bottom: 100px;
+            left:0;
+            right:0;
+            height:30px;
+        }
+
+        body.body-element {
+            height:1500px;
+            background-image: linear-gradient(to bottom, #f1f6fa, #dcecf9, #f1f6fa,#ffffff);
+        }
+
+    </style> -->
+    <link rel="icon" type="image/x-icon" href="/images/bird-favicon.ico">
+    <title>
+        Michael's Flock of Birds
+    </title>
+</head>
+
+<body class="body-element">
+    <div id="container">
+
+        <div id="banner">
+
+            <h1>Michael Singer</h1>
+        </div>
+
+        <div id="column1">
+
+            <!-- Bio: A brief biography of the person, divided into paragraphs with <p> elements. Use level 3
+                    headers to divide into Early Life, Life at Lehigh, etc -->
+            <h2>Biography</h2>
+
+            <h3>Hometown</h3>
+            <p>Mahwah; a suburban town rooted in New Jersey, located 30 minutes away from New York City</p>
+
+            <h3>Hobbies</h3>
+            <p>Michael plays piano, composes digital music, and attempts to make mini video games.</p>
+
+            <h3>House pets</h3>
+            <p>Two <em>mischievous</em> green cheek conures that like to chomp down on pretty much anything (even your
+                fingers).</p>
+
+            <h3>Have nots</h3>
+            <p>We do not have any Krispy Kremes near campus. I could really go for some donuts.</p>
+            
+            <h2>Favorites</h2>
+            <ul class="outer-list">
+                <li>Goose order</li>
+                <ul class="inner-list">
+                    <li>White Bread</li>
+                    <li>Turkey</li>
+                    <li>Pepperoni</li>
+                    <li>Pickles</li>
+                    <li>Tomato</li>
+                    <li>Mayonnaise</li>
+                </ul>
+            </ul>
+            
+            <h2>Courses</h2>
+            <ul class="outer-list" >
+                <li>CSE 264</li>
+                <li>CSE 109</li>
+                <li>MATH 205</li>
+                <li>MKT 111</li>
+                <li>ECO 146</li>
+            </ul>
+            <h2>Music</h2>
+            <table>
+                <tr>
+                    <th>Song</th>
+                    <th>Artist</th>
+                </tr>
+                <tr>
+                    <td>Good News</td>
+                </tr>
+                <tr>
+                    <td>Come Back To Earth</td>
+                    <td style="border:ridge 3px rgb(6, 27, 110);">Mac Miller</td>
+                </tr>
+                <tr>
+                    <td>What's the Use?</td>
+                </tr>
+                <colgroup>
+                    <col id="col-ingroup1">
+                    <col id="col-ingroup2">
+                </colgroup>
+
+            </table>
+
+        </div>
+
+        <div id="column2">
+            <img id="pfp" src="/images/portrait.png" alt="Profile Picture"> <!-- style="width:100%;height:auto;padding:20px;" -->
+
+            <h2>Fun Facts</h2>
+            <ol class="facts">
+
+                <li class="fav">I am half Ecuadorian.</li>
+                <li class="fav">I rode the tallest roller coaster in the world</li>
+                <li class="fav">I met Salt Bae</li>
+            </ol>
+
+
+        </div>
+
+        <div id="footer">
+            
+            <h6>Copyright © 2022 Michael Singer</h6>
+        </div>
+
+    </div>
+</body>
+
+</html>
